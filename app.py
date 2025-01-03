@@ -43,7 +43,6 @@ st.set_page_config(layout="wide")
 
 # Sidebar with logo and "Add Record"
 with st.sidebar:
-    st.image("C:\\Users\\hahas\\Downloads\\png_logo-removebg-preview.png", use_column_width=False, width=150)
     st.title("Add New Record")
     with st.form("add_record_form", clear_on_submit=True):
         customer_name = st.text_input("Customer Name")
